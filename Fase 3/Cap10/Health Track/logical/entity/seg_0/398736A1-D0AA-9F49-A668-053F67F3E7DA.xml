@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="398736A1-D0AA-9F49-A668-053F67F3E7DA" name="T_HKT_REFEICOES">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 01:59:26 UTC</createdTime>
+<ownerDesignName>Health Track</ownerDesignName>
+<engineerTo>
+<item key="7647919E-C791-7A65-EBF4-389325609570" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_alimento" id="91CD08BD-EA77-67E4-975E-4207BDD3B03A">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:03:14 UTC</createdTime>
+<ownerDesignName>Health Track</ownerDesignName>
+<engineerTo>
+<item key="7647919E-C791-7A65-EBF4-389325609570" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dt_refeicao" id="707A891A-EB96-1231-C7CF-2C4B567CB6B0">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:03:52 UTC</createdTime>
+<ownerDesignName>Health Track</ownerDesignName>
+<engineerTo>
+<item key="7647919E-C791-7A65-EBF4-389325609570" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_refeicao" id="7CFE80FC-66D0-6F0B-4339-D54EA5426A2B">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:07:33 UTC</createdTime>
+<ownerDesignName>Health Track</ownerDesignName>
+<engineerTo>
+<item key="7647919E-C791-7A65-EBF4-389325609570" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ds_tipo_refeicao" id="02567D94-4840-D8F1-020D-DD124D8C61EE">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:04:08 UTC</createdTime>
+<ownerDesignName>Health Track</ownerDesignName>
+<engineerTo>
+<item key="7647919E-C791-7A65-EBF4-389325609570" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ds_refeicao" id="95E30002-2268-84E8-F309-FC0D174AAE28">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:05:41 UTC</createdTime>
+<ownerDesignName>Health Track</ownerDesignName>
+<engineerTo>
+<item key="7647919E-C791-7A65-EBF4-389325609570" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Qt_calorias" id="1C9876B7-BAB8-2EB8-F9EE-209AD988F3B6">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:05:54 UTC</createdTime>
+<ownerDesignName>Health Track</ownerDesignName>
+<engineerTo>
+<item key="7647919E-C791-7A65-EBF4-389325609570" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_usuario" id="867E5309-C621-DAF9-2939-5E96B3964AC1">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:32:02 UTC</createdTime>
+<generatorID>9C992C24-42A5-E5CD-4F47-19C05E82AFB7</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<engineerTo>
+<item key="7647919E-C791-7A65-EBF4-389325609570" value="true"/>
+</engineerTo>
+<referedAttribute>7FD81AF9-E785-8273-24F3-ACF0E502B972</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="56AD1B0B-4246-FEF7-4F5E-2BCC6178CBF9" name="T_ALIMENTACAO PK">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:03:26 UTC</createdTime>
+<ownerDesignName>Health Track</ownerDesignName>
+<engineerTo>
+<item key="7647919E-C791-7A65-EBF4-389325609570" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>91CD08BD-EA77-67E4-975E-4207BDD3B03A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

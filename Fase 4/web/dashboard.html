@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Health Track</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel="stylesheet">
+    
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/popper.min.js"></script>
+ </head> 
+ <body>
+ 
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+    </ol>  
+  </nav> 
+  
+  <div class="container" id="dashboard">
+    <div class="row justify-content-between mt-5">
+      <div class="card bg-peso text-center mr-3" id="card-peso" style="width: 14rem;">
+        <img class="card-img-top align-self-center pt-3" style="width: 33%;" src="img/icone-peso.png" alt="Card image cap" id="pressao">
+        <div class="card-body">
+          <h5 class="card-title">90kg</h5>
+          <p class="card-text">11/06/18</p>
+          <a href="peso.html" class="btn btn-outline-light btn-circle ">MODIFICAR</a>
+        </div>
+      </div>
+      
+      <div class="card bg-imc text-center" id="card-imc" style="width: 14rem;">       
+        <div class="card-body">
+          <h5 class="card-title pt-5">MEU IMC</h5>
+          <p class="card-text">25</p>
+          <span>ACIMA DO PESO</span>          
+        </div>
+      </div>
+      
+      <div class="col-5 justify-content-center" id="card-grafico">
+        <img class="text-center pt-5" src="img/grafico.png" style="width: 100%" alt="Imagem de um grafico">
+      </div>
+    </div>
+    
+    <div class="row justify-content-between mt-5">
+     <div class="card bg-alimento text-center mr-3  " id="card-alimento" style="width: 14rem;">
+        <img class="card-img-top align-self-center pt-3" style="width: 33%;" src="img/icone-alimento.png" alt="Card image cap" id="pressao">
+        <div class="card-body">
+          <h5>2500kcal</h5>
+          <p class="card-text">11/06/18</p>       
+          <a href="alimentos.html" class="btn btn-outline-light btn-circle ">MODIFICAR</a>
+        </div>
+      </div>
+      
+      <div class="card bg-pressao text-center mr-3" id="card-pressao" style="width: 14rem;">
+        <img class="card-img-top align-self-center pt-3" style="width: 33%;" src="img/icone-pressao.png" alt="Card image cap" id="pressao">
+        <div class="card-body">
+          <h5 class="card-title">120 x 80</h5>
+          <p class="card-text pb-2">11/06/18</p>
+          <a href="pressao.html" class="btn btn-outline-light btn-circle ">MODIFICAR</a>
+        </div>
+      </div>
+      
+      <div class="card bg-exercicio text-center mr-3" id="card-exercicio" style="width: 14rem;">
+        <img class="card-img-top align-self-center pt-3" style="width: 33%;" src="img/icone-exercicio.png" alt="Card image cap" id="pressao">
+        <div class="card-body">
+          <h5 class="card-title pt-3">1500kcal</h5>
+          <p class="card-text pb-2 ">11/06/18</p>
+          <a href="exercicios.html" class="btn btn-outline-light btn-circle ">MODIFICAR</a>
+        </div>
+      </div>                  
+    </div>    
+  </div>
+   
+   
+   
+ </body>  
+</html>

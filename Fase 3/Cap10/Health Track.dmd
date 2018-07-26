@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Health Track" id="E4B025F2-1D50-E2FC-C7E3-C8A95D50B91B" version="3.5">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 00:35:11 UTC</createdTime>
+<ownerDesignName>Health Track</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>E4B025F2-1D50-E2FC-C7E3-C8A95D50B91B</designId>
+</OSDM_Design>

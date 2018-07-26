@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="321C602C-CB0C-88C6-302B-F60C0BB215ED" name="T_HKT_USUARIO">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>B8EECA90-95AF-4A7C-E37B-CA8EA11F5116</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<ordsAlias>t_usuario</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_usuario" id="910C81C6-7C43-E2AC-B5FB-8C57DDC87BF9">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>7FD81AF9-E785-8273-24F3-ACF0E502B972</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_usuario" id="5767E38C-795E-0C89-C068-8AC1A9F742ED">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>BB13471A-81F3-6B20-84A4-A74C5300358E</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="B9D5A867-7326-F962-65D5-D18FA9CDB19A">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>D01682C2-C489-F5D5-C1B2-4C72CC2449FF</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ds_genero" id="D407E185-9602-7A7F-0424-4403465F02B2">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>4422C3C6-224A-BF41-4F7F-99B5AB39FC61</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vl_altura" id="E24E586F-E3A7-E166-FC1A-5A48F134F42E">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>92581DC6-23A0-A640-0DD3-367E91705A11</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ds_email" id="EAB473CC-8966-BDDE-4684-1E0689FBC29A">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>D06A8346-EB3A-AB36-B86D-E0575B6BD133</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>90</dataTypeSize>
+<ownDataTypeParameters>90,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ds_senha" id="95C3CE6B-C4FC-FD3F-90DB-1E188A56635F">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>32AD37D5-AEB7-91D0-A0F7-D4D30EEDDAC6</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3CE350D6-3A42-B150-65C9-19C4833FC8C1" name="T_USUARIO_PK">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>121B9372-FF56-3364-1959-E9C56D7CD669</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="910C81C6-7C43-E2AC-B5FB-8C57DDC87BF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

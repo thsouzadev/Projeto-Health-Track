@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8AA6FD6D-9704-C467-787D-ECE4651C0C14" name="T_HKT_PESO">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>3968844E-8AD1-FDB9-F992-9C53973DDF5B</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<ordsAlias>t_peso</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_peso" id="5C4182E6-D1FD-1270-76DF-1960FC011F78">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>05B8EC6E-CB10-6C99-35F1-171E9D8812D7</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dt_pesagem" id="991FA153-90E4-5E4F-872D-38EC1314B6FE">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>B675CBBE-AC38-6B69-26BD-2F847A0426EF</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vl_pesagem" id="E6AF98D5-5D4B-4EB8-EA12-01807E231CE8">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>B8893245-0388-C97D-D85B-9276321CA5A7</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_USUARIO_Id_usuario" id="63A2BDEF-C6EF-D084-026B-57D5C132CB12">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>C3913784-311D-E328-20F0-360670C3DCB3</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8B2628F6-1DBA-916D-67F9-4F82DA6319FE" referredColumn="910C81C6-7C43-E2AC-B5FB-8C57DDC87BF9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6DC6891B-C512-9582-8422-875E66E9C40B" name="T_PESO_PK">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>96465220-98F3-4DA8-3882-3CE8EEB8B272</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C4182E6-D1FD-1270-76DF-1960FC011F78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="489B8E32-3852-2FF2-F224-3E8E95EC7B47" name="T_PESO_T_USUARIO_FK">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>1AB487CF-8F67-999F-7FD2-510BDD188720</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63A2BDEF-C6EF-D084-026B-57D5C132CB12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

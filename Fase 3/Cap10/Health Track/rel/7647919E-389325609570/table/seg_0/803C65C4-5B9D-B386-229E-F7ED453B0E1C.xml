@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="803C65C4-5B9D-B386-229E-F7ED453B0E1C" name="T_HKT_REFEICOES">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>398736A1-D0AA-9F49-A668-053F67F3E7DA</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<ordsAlias>t_alimentacao</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_alimento" id="A70E5594-01E4-D5E6-F3FC-9E5BFC124683">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>91CD08BD-EA77-67E4-975E-4207BDD3B03A</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dt_refeicao" id="BA669603-1BAB-6BFA-3959-46C4BC96C06E">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>707A891A-EB96-1231-C7CF-2C4B567CB6B0</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_refeicao" id="902147D9-8952-7096-98EE-F4198BCEB36F">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>7CFE80FC-66D0-6F0B-4339-D54EA5426A2B</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ds_tipo_refeicao" id="DB9A5B48-8910-0C64-FABE-8FFAF67FD874">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>02567D94-4840-D8F1-020D-DD124D8C61EE</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ds_refeicao" id="F9C8F619-719F-85C9-CD22-FF0102338F92">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>95E30002-2268-84E8-F309-FC0D174AAE28</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>90</dataTypeSize>
+<ownDataTypeParameters>90,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Qt_calorias" id="78138964-57C4-CE74-0716-513D13CEFC36">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>1C9876B7-BAB8-2EB8-F9EE-209AD988F3B6</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_USUARIO_Id_usuario" id="25DB4595-EA46-34EE-41E2-9D207ABB36DF">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>867E5309-C621-DAF9-2939-5E96B3964AC1</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED5C66D5-CE9D-F20C-E3B9-8C2A2386C2AE" referredColumn="910C81C6-7C43-E2AC-B5FB-8C57DDC87BF9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="01EF8095-5B39-CE93-8EB3-382E358E71A2" name="T_REFEICOES_PK">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>56AD1B0B-4246-FEF7-4F5E-2BCC6178CBF9</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A70E5594-01E4-D5E6-F3FC-9E5BFC124683"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92B33BF9-65C7-9F53-67B0-894F040C545F" name="T_REFEICOES_T_USUARIO_FK">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>9C992C24-42A5-E5CD-4F47-19C05E82AFB7</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25DB4595-EA46-34EE-41E2-9D207ABB36DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

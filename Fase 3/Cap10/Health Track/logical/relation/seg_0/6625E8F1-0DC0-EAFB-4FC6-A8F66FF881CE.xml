@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Praticar" directorySegmentName="seg_0" id="6625E8F1-0DC0-EAFB-4FC6-A8F66FF881CE">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:32:29 UTC</createdTime>
+<ownerDesignName>Health Track</ownerDesignName>
+<engineerTo>
+<item key="89C9387E-6EA1-BE8F-99C9-A9633A4BF83D" value="true"/>
+</engineerTo>
+<sourcePk>121B9372-FF56-3364-1959-E9C56D7CD669</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B8EECA90-95AF-4A7C-E37B-CA8EA11F5116</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>004F6EAC-9403-37D5-CFF5-E99D40220E60</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

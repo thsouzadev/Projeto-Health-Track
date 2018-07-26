@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED7FEC0E-0B0E-3918-8450-7829BAD1F135" name="T_HKT_PRESSAO">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>3BD3165D-1CE4-03DA-0F46-6DC639459307</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<ordsAlias>t_pressao</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_pressao" id="059929B8-8A1E-DF94-B96D-CAB1C190AD9E">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>4F15DFB7-2EEC-1A1E-B3F8-1F19BF2AA162</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dt_pressao" id="4ADAC3B5-9EAF-690F-A99D-DF324CF9D0C6">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>DD672FEB-6B78-74DF-4A41-BC46CCE457DD</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vl_pressao_sistolica" id="44BA5BDA-BAE6-5061-35E2-EDFD2A31CDEE">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>686C6258-9AEA-D219-8A6C-8E20D741C2D3</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vl_pressao_diastolica" id="A1AFF9B4-867A-D4DC-3ABD-1E9EF56403F7">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>072067FA-62BE-2C48-0508-5A34EB82479F</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_USUARIO_Id_usuario" id="3DC38D7D-1A2E-DFC6-44AE-1EBDF3AE8ACB">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>549ECC6C-FA69-F6EC-6E44-5088A72BC7D2</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="025F6156-88CE-591D-F8C8-335B7579AA7A" referredColumn="910C81C6-7C43-E2AC-B5FB-8C57DDC87BF9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3DF5F348-2D52-40A3-8890-D53FD430D97C" name="T_PRESSAO_PK">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>EF49980F-3B09-134D-C668-3984F19315EC</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="059929B8-8A1E-DF94-B96D-CAB1C190AD9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E8ADBE2-742B-7009-104E-BACDE2F43AA9" name="T_PRESSAO_T_USUARIO_FK">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>53FCC915-BA09-2831-E3BD-A4ABF70F16BB</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DC38D7D-1A2E-DFC6-44AE-1EBDF3AE8ACB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B8EECA90-95AF-4A7C-E37B-CA8EA11F5116" name="T_HKT_USUARIO">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 00:52:17 UTC</createdTime>
+<ownerDesignName>Health Track</ownerDesignName>
+<engineerTo>
+<item key="7647919E-C791-7A65-EBF4-389325609570" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_usuario" id="7FD81AF9-E785-8273-24F3-ACF0E502B972">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 00:52:45 UTC</createdTime>
+<ownerDesignName>Health Track</ownerDesignName>
+<engineerTo>
+<item key="7647919E-C791-7A65-EBF4-389325609570" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_usuario" id="BB13471A-81F3-6B20-84A4-A74C5300358E">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 00:53:08 UTC</createdTime>
+<ownerDesignName>Health Track</ownerDesignName>
+<engineerTo>
+<item key="7647919E-C791-7A65-EBF4-389325609570" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="D01682C2-C489-F5D5-C1B2-4C72CC2449FF">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 00:57:57 UTC</createdTime>
+<ownerDesignName>Health Track</ownerDesignName>
+<engineerTo>
+<item key="7647919E-C791-7A65-EBF4-389325609570" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ds_genero" id="4422C3C6-224A-BF41-4F7F-99B5AB39FC61">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 00:53:16 UTC</createdTime>
+<ownerDesignName>Health Track</ownerDesignName>
+<engineerTo>
+<item key="7647919E-C791-7A65-EBF4-389325609570" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Vl_altura" id="92581DC6-23A0-A640-0DD3-367E91705A11">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 01:00:26 UTC</createdTime>
+<ownerDesignName>Health Track</ownerDesignName>
+<engineerTo>
+<item key="7647919E-C791-7A65-EBF4-389325609570" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ds_email" id="D06A8346-EB3A-AB36-B86D-E0575B6BD133">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 01:01:01 UTC</createdTime>
+<ownerDesignName>Health Track</ownerDesignName>
+<engineerTo>
+<item key="7647919E-C791-7A65-EBF4-389325609570" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ds_senha" id="32AD37D5-AEB7-91D0-A0F7-D4D30EEDDAC6">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 01:03:34 UTC</createdTime>
+<ownerDesignName>Health Track</ownerDesignName>
+<engineerTo>
+<item key="7647919E-C791-7A65-EBF4-389325609570" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="121B9372-FF56-3364-1959-E9C56D7CD669" name="T_USUÁRIO PK">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 00:52:56 UTC</createdTime>
+<ownerDesignName>Health Track</ownerDesignName>
+<engineerTo>
+<item key="7647919E-C791-7A65-EBF4-389325609570" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7FD81AF9-E785-8273-24F3-ACF0E502B972</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

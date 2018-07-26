@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="E7E2BC0C-8B99-5834-A90C-58DB4677853B">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 00:35:13 UTC</createdTime>
+<ownerDesignName>Health Track</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="623F98F0-3662-D108-0A2B-F3C983B35E63" name="T_HKT_EXERCICIOS">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>004F6EAC-9403-37D5-CFF5-E99D40220E60</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<ordsAlias>t_atividades_fisicas</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_exercicio" id="582B0B1F-26DA-A17F-2332-3605F07372D7">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>0B68AAB6-FD31-1AEF-D82B-8E8574F591C2</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dt_exercicio" id="CF90F823-BAFE-578C-A697-A91A682FFAE4">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>A5210B6B-D975-C0F0-32A0-37C7EF222051</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora_exercicio" id="E5061C0C-4852-984B-0005-7F8FCB0F0791">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>89B5F5EA-15B9-F18A-327B-1B6B7B376408</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ds_tipo_exercicio" id="4A714559-B8F9-D38A-8617-D8CA247F1709">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>3BA1BA7F-3297-7CAC-F3A6-261537F26A62</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ds_exercicio" id="6366A2C2-6669-8B82-EBAC-6235CF43CBDA">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>7C9933F0-A79B-3B01-2EED-6271BB8FB90B</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>90</dataTypeSize>
+<ownDataTypeParameters>90,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Qt_calorias" id="A68730F9-3C01-F0AF-CA87-AE76ADAD3489">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>A69564FD-8EB9-4C91-D79C-6721F66EA596</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_USUARIO_Id_usuario" id="3D9FCD48-202A-E6B2-475B-0B38D77C6835">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>5B298931-60DD-B513-3C12-816A33787EDA</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9982E13-E8E6-44BB-A48F-9FC46A899D16" referredColumn="910C81C6-7C43-E2AC-B5FB-8C57DDC87BF9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AF480853-863E-E927-FD8E-43D6818FBB94" name="T_EXERCICIOS_PK">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>B87515FC-C70D-8167-4530-19753100FD98</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="582B0B1F-26DA-A17F-2332-3605F07372D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41969FD5-EA50-E452-6279-19B8399A3CF5" name="T_EXERCICIOS_T_USUARIO_FK">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:43:19 UTC</createdTime>
+<generatorID>6625E8F1-0DC0-EAFB-4FC6-A8F66FF881CE</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D9FCD48-202A-E6B2-475B-0B38D77C6835"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

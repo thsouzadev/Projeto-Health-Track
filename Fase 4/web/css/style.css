@@ -1,0 +1,166 @@
+body, html {
+  height: 100%;
+  font: 100%;
+}
+/* INTRODUÇÃO*/
+#introducao {
+  background-image: url(../img/introducao.jpg);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+#h1-intro {
+  padding-top: 330px;
+  
+}
+#p-intro {
+  font-size: 1.1rem;
+}
+.btn-circle {
+  border-radius: 50px;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+/* INTRODUÇÃO*/
+
+/* LOGIN*/
+
+#loginIntro {
+  background-image: url(../img/login.jpg);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 210px
+  
+}
+
+#container-login {
+  background: rgba(255,255,255,0.7);
+  opacity: 1;  
+}
+
+#p-login {
+  font-size: 1.1rem;
+  line-height: 33px;
+}
+
+#input-mail, #input-password {
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #000;
+  max-width: 360px;  
+}
+
+#forgot-password {
+  color: red;
+}
+/* LOGIN*/
+
+/* DASHBOARD*/
+
+#dashboard {
+  font-family: 'PT Sans Narrow', sans-serif; 
+}
+
+.bg-peso {
+  background: #5dc6ea;
+  color: white;  
+}
+
+#card-peso h5 {
+  font-size: 1.7rem;
+}
+
+#card-peso p {
+  font-size: 1.3rem;
+}
+
+.bg-imc {
+  border: 2px solid #5dc6ea;
+  color: #5dc6ea;  
+}
+
+#card-imc h5 {
+  font-size: 1.7rem;
+}
+
+#card-imc p,span {
+  font-size: 1.5rem;
+}
+
+#card-grafico {
+  border: 2px solid #5dc6ea;
+}
+
+.bg-alimento {
+  background: #e09b26;
+  color: white;
+}
+#card-alimento h5{
+  font-size: 1.7rem
+}
+
+#card-alimento p,span {
+  font-size: 1.3rem;
+}
+
+.bg-pressao {
+  background: #4ea585;
+  color: white;
+}
+
+#card-pressao h5 {
+  font-size: 1.7rem;
+}
+
+#card-pressao p,span {
+  font-size: 1.3rem;
+}
+
+.bg-exercicio {
+  background: #753ea4;
+  color: white;
+}
+
+#card-exercicio h5 {
+  font-size: 1.7rem;
+}
+
+#card-exercicio p,span {
+  font-size: 1.3rem;
+}
+/* DASHBOARD*/
+
+/* MEDIA QUERIES*/
+
+@media only screen and (max-width: 768px) {
+  
+  /*Login*/
+    
+  #container-login h1 {
+    
+    font-size: 1.7rem
+  }
+  #container-login p {
+    
+    font-size: 1rem;
+  }
+  #container-login input {
+    width: auto;
+    
+  }
+  /*DASHBOARD*/
+  
+  #card-peso {
+    
+  }
+  
+}
+
+
+

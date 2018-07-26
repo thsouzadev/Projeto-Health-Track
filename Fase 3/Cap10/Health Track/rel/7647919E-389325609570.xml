@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_2" id="7647919E-C791-7A65-EBF4-389325609570" mainViewID="72BF433D-CA33-8B4C-8D08-06E4AF1FFFFD">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:36:37 UTC</createdTime>
+<ownerDesignName>Health Track</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

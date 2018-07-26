@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="FDE7D8BC-3E3C-8AA7-4F42-2F015C7967B7" mainViewID="45058E15-EE78-BA53-258F-12FCD20F2ECF">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 00:35:11 UTC</createdTime>
+<ownerDesignName>Health Track</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

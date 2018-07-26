@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pesar" directorySegmentName="seg_0" id="1AB487CF-8F67-999F-7FD2-510BDD188720">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:19:28 UTC</createdTime>
+<ownerDesignName>Health Track</ownerDesignName>
+<engineerTo>
+<item key="89C9387E-6EA1-BE8F-99C9-A9633A4BF83D" value="true"/>
+</engineerTo>
+<sourcePk>121B9372-FF56-3364-1959-E9C56D7CD669</sourcePk>
+<targetPk>96465220-98F3-4DA8-3882-3CE8EEB8B272</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B8EECA90-95AF-4A7C-E37B-CA8EA11F5116</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3968844E-8AD1-FDB9-F992-9C53973DDF5B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

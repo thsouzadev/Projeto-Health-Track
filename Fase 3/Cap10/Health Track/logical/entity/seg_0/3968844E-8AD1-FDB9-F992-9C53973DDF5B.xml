@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3968844E-8AD1-FDB9-F992-9C53973DDF5B" name="T_HKT_PESO">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 01:08:24 UTC</createdTime>
+<ownerDesignName>Health Track</ownerDesignName>
+<engineerTo>
+<item key="7647919E-C791-7A65-EBF4-389325609570" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_peso" id="05B8EC6E-CB10-6C99-35F1-171E9D8812D7">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 01:09:33 UTC</createdTime>
+<ownerDesignName>Health Track</ownerDesignName>
+<engineerTo>
+<item key="7647919E-C791-7A65-EBF4-389325609570" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dt_pesagem" id="B675CBBE-AC38-6B69-26BD-2F847A0426EF">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 01:11:29 UTC</createdTime>
+<ownerDesignName>Health Track</ownerDesignName>
+<engineerTo>
+<item key="7647919E-C791-7A65-EBF4-389325609570" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Vl_pesagem" id="B8893245-0388-C97D-D85B-9276321CA5A7">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 01:11:43 UTC</createdTime>
+<ownerDesignName>Health Track</ownerDesignName>
+<engineerTo>
+<item key="7647919E-C791-7A65-EBF4-389325609570" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_usuario" id="C3913784-311D-E328-20F0-360670C3DCB3">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:19:28 UTC</createdTime>
+<generatorID>1AB487CF-8F67-999F-7FD2-510BDD188720</generatorID>
+<ownerDesignName>Health Track</ownerDesignName>
+<engineerTo>
+<item key="7647919E-C791-7A65-EBF4-389325609570" value="true"/>
+</engineerTo>
+<referedAttribute>7FD81AF9-E785-8273-24F3-ACF0E502B972</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="96465220-98F3-4DA8-3882-3CE8EEB8B272" name="T_PESO PK">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 01:11:25 UTC</createdTime>
+<ownerDesignName>Health Track</ownerDesignName>
+<engineerTo>
+<item key="7647919E-C791-7A65-EBF4-389325609570" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>05B8EC6E-CB10-6C99-35F1-171E9D8812D7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

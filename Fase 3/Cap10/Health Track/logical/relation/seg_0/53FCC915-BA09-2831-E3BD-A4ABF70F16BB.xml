@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Medir" directorySegmentName="seg_0" id="53FCC915-BA09-2831-E3BD-A4ABF70F16BB">
+<createdBy>Thiago Souza</createdBy>
+<createdTime>2018-05-29 02:31:06 UTC</createdTime>
+<ownerDesignName>Health Track</ownerDesignName>
+<engineerTo>
+<item key="89C9387E-6EA1-BE8F-99C9-A9633A4BF83D" value="true"/>
+</engineerTo>
+<sourcePk>121B9372-FF56-3364-1959-E9C56D7CD669</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B8EECA90-95AF-4A7C-E37B-CA8EA11F5116</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3BD3165D-1CE4-03DA-0F46-6DC639459307</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
